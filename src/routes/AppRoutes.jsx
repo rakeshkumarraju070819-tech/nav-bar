@@ -8,6 +8,8 @@ import Kids from "../pages/Kids";
 import Bag from "../pages/Bag";
 import Wishlist from "../pages/Wishlist";
 import Login from "../pages/Login";
+import Dashboard from "../pages/dashboard";
+import Register from "../pages/register."
 
 const AppRoutes = () => {
   return (
@@ -17,6 +19,8 @@ const AppRoutes = () => {
       <Route path="/women" element={<Women />} />
       <Route path="/kids" element={<Kids />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/Dashboard" element={<Dashboard />} />
+      <Route path="/Register" element={<Register />} />
 
       {/* Protected routes */}
       <Route element={<ProtectedRoute />}>

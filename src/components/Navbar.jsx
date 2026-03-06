@@ -11,6 +11,8 @@ const Navbar = () => {
       <Link to="/bag">Bag</Link>
       <Link to="/wishlist">Wishlist</Link>
       <Link to="/login">Login</Link>    
+      <Link to="/Register">Register</Link>    
+      <Link to="/Dashboard">Dashboard</Link>    
     </nav>
   );
 };
